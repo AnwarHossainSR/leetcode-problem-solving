@@ -1,4 +1,3 @@
-//-121 is palindrom or not?
 
 function isPalindrom(num) {
   let temp = num;
