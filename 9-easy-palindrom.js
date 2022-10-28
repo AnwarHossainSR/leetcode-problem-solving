@@ -1,4 +1,3 @@
-
 function isPalindrom(num) {
   let temp = num;
   let rev = 0;
@@ -10,4 +9,4 @@ function isPalindrom(num) {
   return rev === num;
 }
 
-isPalindrom(-121)
+isPalindrom(-121);
