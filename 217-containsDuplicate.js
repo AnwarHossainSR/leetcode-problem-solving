@@ -22,9 +22,9 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var containsDuplicate = function(nums) {
+var containsDuplicate = function (nums) {
   let unique = new Set(nums);
   return unique.size !== nums.length;
 };
 
-console.log(containsDuplicate([ 1, 2, 3, 4 ]));
+console.log(containsDuplicate([1, 2, 3, 4]));
