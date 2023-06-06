@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums) {
+var singleNumber = function (nums) {
   let length = nums.length;
   let uniqueVal;
   for (let i = 0; i < length; i++) {
@@ -16,4 +16,4 @@ var singleNumber = function(nums) {
   return uniqueVal;
 };
 
-console.log(singleNumber([ 4, 1, 2, 1, 2 ]));
+console.log(singleNumber([4, 1, 2, 1, 2]));

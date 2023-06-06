@@ -2,7 +2,7 @@
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
  */
-var reverseString = function(s) {
+var reverseString = function (s) {
   let left = 0;
   let right = s.length - 1;
   while (left < right) {
@@ -16,4 +16,4 @@ var reverseString = function(s) {
   return s;
 };
 
-console.log(reverseString([ "h", "e", "l", "l", "o" ]));
+console.log(reverseString(["h", "e", "l", "l", "o"]));
