@@ -11,7 +11,7 @@ class Solution:
         groups_dict = defaultdict(list)
 
         for value in strs:
-            sorted_value = ''.join(sorted(value))
+            sorted_value = "".join(sorted(value))
             groups_dict[sorted_value].append(value)
 
         return list(groups_dict.values())
