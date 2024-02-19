@@ -1,9 +1,10 @@
 from typing import ListNode
-#merge two sorted linked
+# merge two sorted linked
+
 
 class Solution:
     def mergeTwoLists(self, l1, l2):
-        
+
         if l1 == None:
             return l2
         if l2 == None:
@@ -20,14 +21,14 @@ class Solution:
                 p.next = ListNode(l2.val)
                 p = p.next
                 l2 = l2.next
-        
+
         if l1 == None:
             p.next = l2
         if l2 == None:
             p.next = l1
-        
+
         return head.next
-    
+
 
 s = Solution()
 l1 = ListNode(1)
