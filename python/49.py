@@ -2,7 +2,13 @@ from collections import defaultdict
 
 
 class Solution:
+    """ """
     def groupAnagrams(self, strs):
+        """
+
+        :param strs: 
+
+        """
         if not strs:
             return [[""]]
         if len(strs) == 1:
