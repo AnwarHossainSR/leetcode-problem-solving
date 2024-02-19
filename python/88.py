@@ -6,10 +6,10 @@ class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
 
-        :param nums1: List[int]: 
-        :param m: int: 
-        :param nums2: List[int]: 
-        :param n: int: 
+        :param nums1: List[int]:
+        :param m: int:
+        :param nums2: List[int]:
+        :param n: int:
 
         """
         nums1[m:] = nums2[:]

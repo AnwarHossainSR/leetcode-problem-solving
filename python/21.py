@@ -8,8 +8,8 @@ class Solution:
     def mergeTwoLists(self, l1, l2):
         """
 
-        :param l1: 
-        :param l2: 
+        :param l1:
+        :param l2:
 
         """
 

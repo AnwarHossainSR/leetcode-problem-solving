@@ -6,7 +6,7 @@ class Solution:
     def groupAnagrams(self, strs):
         """
 
-        :param strs: 
+        :param strs:
 
         """
         if not strs:
