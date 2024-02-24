@@ -13,4 +13,4 @@ const searchInsert = (nums, target) => {
   }
 };
 
-console.log(searchInsert([ 1, 3, 5, 6 ], 7)); // 2
+console.log(searchInsert([1, 3, 5, 6], 7)); // 2
