@@ -1,10 +1,11 @@
 const isValid = (str) => {
-  if (str.length % 2 !== 0) return false;
+  if (str.length % 2 !== 0)
+    return false;
   const stack = [];
   const map = {
-    "(": ")",
-    "[": "]",
-    "{": "}",
+    "(" : ")",
+    "[" : "]",
+    "{" : "}",
   };
   for (let i = 0; i < str.length; i++) {
     if (str[i] === "(" || str[i] === "[" || str[i] === "{") {

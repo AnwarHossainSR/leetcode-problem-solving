@@ -2,7 +2,7 @@
  * @param {number[]} height
  * @return {number}
  */
-var maxArea = function (height) {
+var maxArea = function(height) {
   let left = 0;
   let right = height.length - 1;
   let maxArea = 0;

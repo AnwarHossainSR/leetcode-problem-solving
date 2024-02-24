@@ -10,7 +10,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function (l1, l2) {
+var addTwoNumbers = function(l1, l2) {
   let len = l1.length > l2.length ? l1.length : l2.length;
   let sLen = l1.length < l2.length ? l1.length : l2.length;
   let carry = 0;
@@ -36,8 +36,9 @@ var addTwoNumbers = function (l1, l2) {
       }
     }
   }
-  if (carry > 0) sum.push(carry);
+  if (carry > 0)
+    sum.push(carry);
   return sum;
 };
 
-addTwoNumbers([2, 4, 3], [5, 6, 4]);
+addTwoNumbers([ 2, 4, 3 ], [ 5, 6, 4 ]);
