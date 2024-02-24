@@ -6,8 +6,8 @@ class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         """
 
-        :param nums: List[int]: 
-        :param val: int: 
+        :param nums: List[int]:
+        :param val: int:
 
         """
         if nums == []:
