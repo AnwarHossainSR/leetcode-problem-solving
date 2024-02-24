@@ -9,8 +9,8 @@ class Solution:
 
         :param nums: List[int]:
         :param val: int:
-        :param nums: List[int]: 
-        :param val: int: 
+        :param nums: List[int]:
+        :param val: int:
 
         """
         if nums == []:

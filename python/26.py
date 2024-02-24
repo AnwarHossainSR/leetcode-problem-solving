@@ -6,7 +6,7 @@ class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         """
 
-        :param nums: List[int]: 
+        :param nums: List[int]:
 
         """
         i = 0
