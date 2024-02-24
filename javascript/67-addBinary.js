@@ -1,9 +1,9 @@
 const addBinary = (a, b) => {
-  let sum = '',
+  let sum = "",
     carry = 0;
 
-  a = a.split('');
-  b = b.split('');
+  a = a.split("");
+  b = b.split("");
   const len = Math.max(a.length, b.length);
   for (let i = 0; i < len; i++) {
     const x = parseInt(a.pop() || 0);
@@ -17,4 +17,4 @@ const addBinary = (a, b) => {
   return sum;
 };
 
-console.log(addBinary('1010', '1011'));
+console.log(addBinary("1010", "1011"));

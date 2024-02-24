@@ -20,4 +20,4 @@ const romanToInt = (s) => {
   return sum;
 };
 
-console.log(romanToInt('MCMXCIV'));
+console.log(romanToInt("MCMXCIV"));

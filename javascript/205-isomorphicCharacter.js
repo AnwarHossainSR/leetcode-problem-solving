@@ -1,4 +1,3 @@
-
 var isIsomorphic = function (s, t) {
   let map = new Map();
   let map2 = new Map();
@@ -15,6 +14,6 @@ var isIsomorphic = function (s, t) {
   return true;
 };
 
-console.log(isIsomorphic('egg', 'add'));
-//console.log(isIsomorphic('ffo', 'bar'));
-//console.log(isIsomorphic('paper', 'title'));
+console.log(isIsomorphic("egg", "add"));
+// console.log(isIsomorphic('ffo', 'bar'));
+// console.log(isIsomorphic('paper', 'title'));
