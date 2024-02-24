@@ -6,7 +6,7 @@
 //   return Math.floor(Math.sqrt(x));
 // };
 
-var mySqrt = function (x) {
+var mySqrt = function(x) {
   let i = 1;
   let sqr = i * i;
 

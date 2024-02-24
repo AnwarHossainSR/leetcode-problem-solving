@@ -11,4 +11,4 @@ const plusOne = (digits) => {
   return digits;
 };
 
-plusOne([9,9]);
+plusOne([ 9, 9 ]);

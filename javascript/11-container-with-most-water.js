@@ -14,7 +14,7 @@ var maxArea = function(height) {
     // Update the maximum area
     maxArea = Math.max(maxArea, currentArea);
 
-    //Move the pointer with the smaller height
+    // Move the pointer with the smaller height
     if (height[left] < height[right]) {
       left++;
     } else {
