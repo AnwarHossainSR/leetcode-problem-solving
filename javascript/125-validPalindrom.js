@@ -16,14 +16,14 @@
  */
 var isPalindrome = function (s) {
   let str = s.toLowerCase();
-  let finalStr = '';
+  let finalStr = "";
   for (let i = 0; i < str.length; i++) {
     const res = checkAsciiValue(str[i]);
     if (res === true) {
       finalStr += str[i];
     }
   }
-  if (finalStr === finalStr.split('').reverse().join('')) return true;
+  if (finalStr === finalStr.split("").reverse().join("")) return true;
   return false;
 };
 
@@ -33,5 +33,5 @@ const checkAsciiValue = (value) => {
   return false;
 };
 
-console.log(isPalindrome('A man, a plan, a canal: Panama'));
-//console.log(isPalindrome('0p'));
+console.log(isPalindrome("A man, a plan, a canal: Panama"));
+// console.log(isPalindrome('0p'));

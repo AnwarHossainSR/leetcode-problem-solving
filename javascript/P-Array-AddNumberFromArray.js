@@ -18,11 +18,11 @@ var addTwoNumbers = function (l1, l2) {
   for (let i = 0; i < len; i++) {
     if (i <= sLen - 1) {
       if (l1[i] + l2[i] > 9) {
-        console.log('if 2');
+        console.log("if 2");
         sum.push((l1[i] + l2[i] + carry) % 10);
         carry = 1;
       } else {
-        console.log('else 2');
+        console.log("else 2");
         sum.push(l1[i] + l2[i] + carry);
         carry = 0;
       }
