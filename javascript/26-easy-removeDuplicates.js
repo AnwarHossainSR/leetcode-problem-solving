@@ -1,4 +1,4 @@
-var removeDuplicates = function(nums) {
+var removeDuplicates = function (nums) {
   let i = 0;
   while (i < nums.length) {
     if (nums[i] === nums[i + 1]) {
@@ -9,4 +9,4 @@ var removeDuplicates = function(nums) {
   }
   return nums.length;
 };
-console.log(removeDuplicates([ 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 4 ]));
+console.log(removeDuplicates([0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 4]));

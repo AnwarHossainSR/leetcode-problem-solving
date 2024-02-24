@@ -14,7 +14,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
+var isPalindrome = function (s) {
   let str = s.toLowerCase();
   let finalStr = "";
   for (let i = 0; i < str.length; i++) {
@@ -23,16 +23,13 @@ var isPalindrome = function(s) {
       finalStr += str[i];
     }
   }
-  if (finalStr === finalStr.split("").reverse().join(""))
-    return true;
+  if (finalStr === finalStr.split("").reverse().join("")) return true;
   return false;
 };
 
 const checkAsciiValue = (value) => {
-  if (value.charCodeAt(0) >= 97 && value.charCodeAt(0) <= 122)
-    return true;
-  if (value.charCodeAt(0) >= 48 && value.charCodeAt(0) <= 57)
-    return true;
+  if (value.charCodeAt(0) >= 97 && value.charCodeAt(0) <= 122) return true;
+  if (value.charCodeAt(0) >= 48 && value.charCodeAt(0) <= 57) return true;
   return false;
 };
 

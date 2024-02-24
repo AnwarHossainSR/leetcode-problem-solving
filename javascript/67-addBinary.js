@@ -1,5 +1,6 @@
 const addBinary = (a, b) => {
-  let sum = "", carry = 0;
+  let sum = "",
+    carry = 0;
 
   a = a.split("");
   b = b.split("");
@@ -11,8 +12,7 @@ const addBinary = (a, b) => {
     sum = (temp % 2) + sum;
     carry = Math.floor(temp / 2);
   }
-  if (carry)
-    sum = carry + sum;
+  if (carry) sum = carry + sum;
 
   return sum;
 };

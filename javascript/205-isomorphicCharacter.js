@@ -1,4 +1,4 @@
-var isIsomorphic = function(s, t) {
+var isIsomorphic = function (s, t) {
   let map = new Map();
   let map2 = new Map();
   for (let i = 0; i < s.length; i++) {
