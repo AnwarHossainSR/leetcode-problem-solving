@@ -1,7 +1,15 @@
 from typing import List
 
+
 class Solution:
+    """ """
+
     def removeDuplicates(self, nums: List[int]) -> int:
+        """
+
+        :param nums: List[int]:
+
+        """
         if len(nums) <= 2:
             return len(nums)
 
@@ -12,6 +20,7 @@ class Solution:
                 index += 1
 
         return index
-    
+
+
 obj = Solution()
-print(obj.removeDuplicates([1,1,1,2,2,3]))
+print(obj.removeDuplicates([1, 1, 1, 2, 2, 3]))
